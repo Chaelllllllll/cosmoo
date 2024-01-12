@@ -1,0 +1,53 @@
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url("Images/Mcs.jpg");
+}
+
+section div{
+   background-color: #720606;
+   padding: 3%;
+   margin: 3% 0%;
+   border: solid;
+   border-color: black;
+   border-radius: 5px;
+   color: white;
+   text-align: center;
+   transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+section div:hover {
+   background-color: yellow;
+   color: black;
+}
+
+section p {
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 600px) {
+   section div{
+   background-color: #720606;
+   padding: 3%;
+   margin: 3% 0%;
+   border: solid;
+   border-color: black;
+   border-radius: 5px;
+   color: white;
+   text-align: center;
+   transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+section div:hover {
+   background-color: yellow;
+   color: black;
+}
+
+section p {
+   font-size: 10px;
+   font-family: 'Times New Roman', Times, serif;
+}
+}

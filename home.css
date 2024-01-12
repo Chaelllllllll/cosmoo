@@ -1,0 +1,110 @@
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-size: cover;
+            background-image: url("Images/Mcs.jpg");
+        }
+
+        header {
+            background: rgb(94,4,4);
+            background: linear-gradient(0deg, rgba(94,4,4,1) 36%, rgba(146,2,2,1) 99%);
+            color: #fff;
+            padding: 1em;
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        nav {
+            background-color: #720606;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            background-color: #720606;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 1s ease-in-out, color 1s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: yellow;
+            color: black;
+        }
+
+        section {
+            padding: 4%;
+        }
+
+        section a{
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+            color: white;
+        }
+
+        #welcome , #contact, #course, #about{
+            background-color: #720606;
+            border: solid;
+            border-color: #000000;
+            padding: 2%;
+            margin: 2%;
+            border-radius: 10px;
+            transition: background-color 1s ease-in-out, color 1s ease-in-out;
+        }
+
+        #welcome p, #contact p, #course p, #about p{
+            text-align: justify;
+        }
+
+        #welcome:hover, #contact:hover, #course:hover, #about:hover{
+            background-color: yellow;
+            color: black;
+        }
+
+
+
+
+        @media only screen and (max-width: 600px) {
+        nav a {
+                display: inline-block;
+                width: 10%;
+                font-size: 10px;
+        }
+
+        header {
+                text-align: center;
+                font-size: 10px;
+        }
+
+        section a{
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+        }
+
+        section div {
+            font-size: 10px;
+        }
+
+        #welcome , #contact, #course, #about{
+            background-color: #720606;
+            border: solid;
+            border-color: #000000;
+            padding: 5%;
+            margin: 2%;
+            border-radius: 10px;
+            transition: background-color 1s ease-in-out, color 1s ease-in-out;
+        }
+
+        #welcome:hover, #contact:hover, #course:hover, #about:hover{
+            background-color: yellow;
+            color: black;
+        }
+        }

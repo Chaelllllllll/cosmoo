@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url("Images/Mcs.jpg");
+}
+
+#aboutt {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+#aboutt p {
+    text-align: justify;
+}
+
+#mission, #vision, #core {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #720606;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 3%;
+    padding: 2%;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+#mission:hover, #vision:hover, #core:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#mission h2, #vision h2 , #core h2, #aboutt h2{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #aboutt {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    border-radius: 5px;
+    padding: 5%;
+    font-size: 10px;
+    }
+
+    #aboutt p, #mission p, #vision p, #core p{
+        text-align: justify;
+    }
+
+    #mission, #vision, #core {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        background-color: #720606;
+        border: solid;
+        border-color: black;
+        border-radius: 5px;
+        margin-top: 3%;
+        padding: 5%;
+        font-size: 10px;
+        transition: background-color 1s ease-in-out, color 1s ease-in-out;
+    }
+
+    #mission:hover, #vision:hover, #core:hover {
+        background-color: yellow;
+        color: black;
+    }
+
+    #mission h2, #vision h2 , #core h2, #aboutt h2{
+        text-align: center;
+    }   
+}

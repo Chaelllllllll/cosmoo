@@ -1,0 +1,88 @@
+header {
+	background: rgb(94,4,4);
+    background: linear-gradient(0deg, rgba(94,4,4,1) 36%, rgba(146,2,2,1) 99%);
+    padding: 4px 40px;
+}
+
+header p {
+	margin-top: -2%;
+}
+
+section div {
+	background-color: #720606;
+	padding: 2% 4%;
+	padding-bottom: 10%;
+	margin: 1% 20%;
+	color: white;
+	border: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+
+section p {
+	margin-top: -2%;
+}
+
+section a {
+	background-color: #ffbe03;
+	margin-top: 6%;
+	color: black;
+	padding: 2% 2%;
+	border: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin: 0% 2%;
+    float: right;
+}
+
+section h2 {
+	font-size: 40px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	header {
+	background: rgb(94,4,4);
+    background: linear-gradient(0deg, rgba(94,4,4,1) 36%, rgba(146,2,2,1) 99%);
+    padding: 4px 20px;
+    text-align: left;
+	}
+
+header p {
+	margin-top: -2%;
+}
+
+section div {
+	background-color: #720606;
+	padding: 2% 4%;
+	padding-bottom: 15%;
+	margin: 1% 1%;
+	color: white;
+	border: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+section p {
+	margin-top: -2%;
+}
+
+section a {
+	background-color: #ffbe03;
+	margin-top: 6%;
+	margin-bottom: 6%;
+	color: black;
+	padding: 2% 2%;
+	border: solid;
+    border-color: black;
+    border-radius: 5px;
+    margin: 0% 2%;
+    float: right;
+    font-size: 10px;
+}
+
+section h2 {
+	font-size: 20px;
+	text-align: center;
+}
+}

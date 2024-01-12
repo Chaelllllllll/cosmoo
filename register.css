@@ -1,0 +1,125 @@
+.registration-form {
+	background: rgb(94,4,4);
+    background: linear-gradient(0deg, rgba(94,4,4,1) 36%, rgba(146,2,2,1) 99%);
+	margin: 0% 30%;
+	padding: 0% 3%;
+	padding-bottom: 2%;
+	border: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.registration-form h2 {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+
+.registration-form label {
+	color: white;
+	font-size: 17px;
+}
+
+.registration-form input {
+	border: 2px solid;
+    border-color: black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1% 1%;
+    margin-top: 1%;
+}
+
+.registration-form input::placeholder {
+	color: black;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.registration-form button {
+	margin-top: 5%;
+	padding: 2%;
+	border-radius: 6px;
+	border: none;
+	width: 103%;
+	font-weight: bold;
+	background-color: #ffbe03;
+	transition: 0.5s ease-in-out;
+}
+
+.registration-form button:hover {
+    background-color: #2bff00;
+}
+
+.registration-form h5 {
+	text-align: center;
+	color: white;
+}
+
+.registration-form h5 a {
+	color: #ffbe03;
+}
+
+@media only screen and (max-width: 600px) { 
+	.registration-form {
+	background: rgb(94,4,4);
+    background: linear-gradient(0deg, rgba(94,4,4,1) 36%, rgba(146,2,2,1) 99%);
+	margin: 5% 3%;
+	padding: 0% 3%;
+	padding-bottom: 2%;
+	border: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.registration-form h2 {
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+
+.registration-form label {
+	color: white;
+	font-size: 10px;
+}
+
+.registration-form input {
+	border: 2px solid;
+    border-color: black;
+    border-radius: 5px;
+    width: 95%;
+    padding: 1% 1%;
+    margin-top: 1%;
+}
+
+.registration-form input::placeholder {
+	color: black;
+	font-style: italic;
+	font-size: 10px;
+}
+
+.registration-form button {
+	margin-top: 5%;
+	padding: 2%;
+	border-radius: 6px;
+	border: none;
+	width: 98%;
+	font-weight: bold;
+	background-color: #ffbe03;
+	transition: 0.5s ease-in-out;
+}
+
+.registration-form button:hover {
+    background-color: #2bff00;
+}
+
+.registration-form h5 {
+	margin-top: 10%;
+	text-align: center;
+	color: white;
+}
+
+.registration-form h5 a {
+	font-size: 10px;
+	color: #ffbe03;
+}
+}
